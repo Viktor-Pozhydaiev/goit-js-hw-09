@@ -1,5 +1,5 @@
-const startBtn = document.querySelector('button[data-start="start"]');
-const stopBtn = document.querySelector('button[data-stop="stop"]');
+const startBtn = document.querySelector('button[data-start]');
+const stopBtn = document.querySelector('button[data-stop]');
 const body = document.querySelector('body');
 
 let timerId = null;
